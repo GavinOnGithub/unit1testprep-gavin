@@ -35,9 +35,4 @@ From now on, commit and push your work to your own repository.
 3. Write code in `main` that creates objects and tests each method.
 4. Commit and push your work regularly.
 
-Compile and run from a terminal with:
 
-```
-javac StringMathPractice.java
-java StringMathPractice
-```
