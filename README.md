@@ -1,6 +1,6 @@
-# Unit 1 Test Prep: StringMathPractice
+# Unit 1 Test Prep: LunchTime
 
-This repository is a **starter project**. It contains `StringMathPractice.java`, a class with
+This repository is a **starter project**. It contains `LunchTime.java`, a class with
 String and Math practice methods for you to complete. Do not work in this repository directly;
 use it as the starting point for **your own** repository.
 
@@ -30,7 +30,7 @@ use it as the starting point for **your own** repository.
 From now on, commit and push your work to your own repository.
 
 ## The assignment
-1. Open `StringMathPractice.java` in your editor.
+1. Open `LunchTime.java` in your editor.
 2. Complete the constructors and every method marked `// TODO`.
 3. Write code in `main` that creates objects and tests each method.
 4. Commit and push your work regularly.
