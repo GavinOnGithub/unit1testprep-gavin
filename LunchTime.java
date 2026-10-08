@@ -167,7 +167,7 @@ public class LunchTime {
        */
       public int cafeteriaRandomness(int lowNugs, int highNugs) {
           // TODO: return a random integer from lowNugs through highNugs
-          return 0;
+          return Math.random(lowNugs, highNugs);
       }
 
 
@@ -181,7 +181,7 @@ public class LunchTime {
      */
     public double nuggetPower(double power) {
         // TODO
-        return 0.0;
+        return Math.pow(2);
     }
 
     /**
