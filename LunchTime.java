@@ -33,6 +33,10 @@ public class LunchTime {
      * Give ALL FOUR instance variables reasonable default values.
      */
     public LunchTime() {
+        numNugs = 6;
+        mysterySauce = 15.7;
+        enoughNugs = false;
+        entreeName = "Nuggets&Sauce";
         // TODO: Initialize all four instance variables.
     }
 
@@ -42,6 +46,10 @@ public class LunchTime {
      */
     public LunchTime(int nugs, double sauce, boolean enough, String name) {
         // TODO: Set all four instance variables using the parameters.
+        numNugs = nugs;
+        mysterySauce = sauce;
+        enoughNugs = enough;
+        entreeName = name;
     }
 
 
@@ -59,7 +67,8 @@ public class LunchTime {
      */
     public int getEntreeNameLength() {
         // TODO
-        return 0;
+        entreeName = "Nuggly Ducklings";
+        System.out.println(entreeName.substring(0, 6));
     }
 
 
@@ -79,7 +88,7 @@ public class LunchTime {
      */
     public String getEntreeSubstring(int start, int end) {
         // TODO
-        return "";
+        return entreeName.substring(start, end);
     }
 
 
@@ -95,7 +104,7 @@ public class LunchTime {
      */
     public int containsNug() {
         // TODO
-        return 0;
+        return entreeName.indexOf("Nug");
     }
 
 
@@ -112,7 +121,7 @@ public class LunchTime {
      */
     public int compareLunchNames(String otherLunch) {
         // TODO
-        return 0;
+        return entreeName.compareTo(otherLunch);
     }
 
 
@@ -127,7 +136,10 @@ public class LunchTime {
      */
     public boolean isSameLunch(String otherLunch) {
         // TODO
-        return false;
+        if entreeName.equals(otherLunch);
+            return false;
+        else:
+            return true;
     }
 
 
